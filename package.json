@@ -1,0 +1,22 @@
+{
+  "name": "apple-ads-mcp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A small, direct Apple Ads MCP server",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test",
+    "bench": "node bench.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "2.3.0",
+    "zod": "4.6.5"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/client": "2.3.0"
+  }
+}
